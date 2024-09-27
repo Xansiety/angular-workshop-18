@@ -1,0 +1,22 @@
+<p>home works!</p>
+
+{{ doubleCount() }}
+
+
+List of active users:
+{{ counter() }}
+
+<button (click)="incrementCount()">
+    Increment users counter by 1
+</button>
+
+<div style="width: 300px; height: 300px; border: 1px solid black;"
+     appClickOutside
+     (clickOutside)="clickOutside($event)">
+
+    Da click Fuera de la caja
+</div>
+
+<a href="/dashboard/calendar">
+    Go to calendar
+</a>
